@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Directory Structure</h1>
+          <h1 className="App-title">Directory Structure Click on Folder to create on sub folder</h1>
         </header>
         <FolderTree key={1} title="Root"/>
         <FolderTree key={2} title="Root"/>
