@@ -22,7 +22,24 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.tree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:  10px;
+  margin: 10px;
+}
+
+.node::before {
+  border-top: 1px solid #000;
+  top: 13px;
+  width: 8px;
+  height: 0;
+}
+
+.node::after {
+  border-left: 1px solid #000;
+  height: 100%;
+  width: 0px;
+  top: 4px;
 }
